@@ -1,40 +1,41 @@
 const storage = typeof browser !== "undefined" ? browser.storage.local : null;
 
 let config = {
-    microslop: "false",
-    sloffice: "false",
-    slopya: "false",
-    slopilot: "false"
+    microslop: false,
+    sloffice: false,
+    slopya: false,
+    slopilot: false
 };
 
 function loadData() {
-    if (!storage) return;
+    if (!storage) return Promise.resolve();
 
-    storage.get(["microslop", "slopilot", "slopya", "sloffice"]).then((data) => {
-        config.microslop = data.microslop ?? false;
-        config.slopilot = data.slopilot ?? false;
-        config.slopya = data.slopya ?? false;
-        config.slopilot = data.sloffice ?? false;
-    });
+    return storage.get(["microslop", "slopilot", "slopya", "sloffice"])
+        .then((data) => {
+            config.microslop = data.microslop ?? false;
+            config.slopilot = data.slopilot ?? false;
+            config.slopya = data.slopya ?? false;
+            config.sloffice = data.sloffice ?? false;
+        });
 }
 
 function replaceText(node) {
     if (node.nodeType === Node.TEXT_NODE) {
         let text = node.textContent;
-
-        if (config.sloffice) {
+        
+        if (config.sloffice === true) {
             text = text.replace(/Microsoft Office/g, "Microslop Sloffice");
         }
 
-        if (config.microslop) {
+        if (config.microslop === true) {
             text = text.replace(/Microsoft/g, "Microslop");
         }
 
-        if (config.slopilot) {
+        if (config.slopilot === true) {
             text = text.replace(/Copilot/g, "Slopilot");
         }
 
-        if (config.slopya) {
+        if (config.slopya === true) {
             text = text.replace(/Satya Nadella/g, "Slopya Nutella");
         }
 
@@ -47,5 +48,7 @@ function replaceText(node) {
     }
 }
 
-loadData();
-replaceText(document.body);
+(async () => {
+    await loadData();
+    replaceText(document.body);
+})();
