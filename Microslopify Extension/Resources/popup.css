@@ -2,14 +2,90 @@
     color-scheme: light dark;
 }
 
-body {
-    width: 100px;
-    padding: 10px;
+html, body {
+    padding: 0;
+    margin: 0;
+}
 
-    font-family: system-ui;
+body {
+    margin: 0;
+    padding: 12px;
+    width: 326.12px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h5, h4, h3, h2, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+header {
     text-align: center;
 }
 
+header strong {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+header h5 {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(107, 99, 99);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(229, 221, 221);
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(229, 221, 221);;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+footer {
+    font-size: 11px;
+    text-align: center;
+    color: #8e8e93;
+}
+
+footer a {
+    color: #007aff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 @media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+    label {
+        background-color: rgb(78, 75, 75);
+        border-color: rgb(149, 143, 143);
+    }
 }
