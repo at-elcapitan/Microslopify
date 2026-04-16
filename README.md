@@ -1,6 +1,6 @@
 ## Microslopify
 
-is a Safari extension inspired by [Microslop](https://github.com/4O4-wasd/Microslop), that converts Microslop-related words to it's correct variants.
+is a Safari extension inspired by [Microslop](https://github.com/4O4-wasd/Microslop), that converts Microslop-related words to their correct variants.
 
 ## Working demo
 
