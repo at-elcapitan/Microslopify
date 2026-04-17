@@ -23,7 +23,7 @@ Extension can be configurred via it's popup window
 
 Available prebuilt versions:
 - arm64 (Apple silicon)
-- x64_64 (Intel)
+- x86_64 (Intel)
 - Universal
 
 Can be found at [releases page](https://github.com/at-elcapitan/Microslopify/releases)
