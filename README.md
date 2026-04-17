@@ -46,7 +46,7 @@ git clone https://github.com/at-elcapitan/Microslopify
 
 ---
 
-2.2 Open "Signing & Capabilities"
+2.2 Open "Signing & Capabilities" for target `Microslopify`
 
 <img width="807" height="245" alt="Screenshot 2026-04-16 at 7 42 32 PM" src="https://github.com/user-attachments/assets/724b5b42-8b36-4555-8ded-09e6660a6f2e" />
 
@@ -55,6 +55,12 @@ git clone https://github.com/at-elcapitan/Microslopify
 2.3 Change signing team to the valid one
 
 <img width="749" height="154" alt="Screenshot 2026-04-16 at 7 43 21 PM" src="https://github.com/user-attachments/assets/9503735a-afd2-467c-8117-b817775feb8d" />
+
+---
+
+2.4 Repeat steps 2.2 and 2.3 for target `Microslopify Extension`
+
+<img width="635" height="232" alt="Screenshot 2026-04-17 at 12 30 01 PM" src="https://github.com/user-attachments/assets/def75b61-d546-4c50-886f-9ae6ea6122d5" />
 
 ---
 
