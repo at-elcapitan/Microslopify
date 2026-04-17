@@ -72,7 +72,7 @@ class ReplaceableText {
 const defaultReplaceables = [
     new ReplaceableText(
         "Microsoft Office",
-        "Microsfop Sloffice",
+        "Microslop Sloffice",
         false
     ),
     new ReplaceableText(
