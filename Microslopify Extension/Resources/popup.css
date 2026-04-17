@@ -41,7 +41,7 @@ header h5 {
 hr {
     border: none;
     height: 1px;
-    background-color: rgb(229, 221, 221);
+    background-color: rgb(195, 188, 188);
     margin: 10px 0;
 }
 
@@ -62,7 +62,7 @@ label {
     gap: 10px;
     padding: 10px 12px;
     border-radius: 10px;
-    background-color: rgb(249, 249, 249);
+    background-color: rgba(255, 255, 255, 0.807);
     border: 1px solid rgb(229, 221, 221);;
     cursor: pointer;
     font-size: 13px;
@@ -84,8 +84,20 @@ footer a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+    header h5 {
+        color: #ededf0;
+    }
+
+    footer {
+        color: #dcdce3;
+    }
+
     label {
-        background-color: rgb(78, 75, 75);
+        background-color: rgba(78, 75, 75, 0.665);
         border-color: rgb(149, 143, 143);
+    }
+
+    hr {
+        background-color: rgb(124, 120, 120);
     }
 }
