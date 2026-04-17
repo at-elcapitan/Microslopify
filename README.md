@@ -48,7 +48,7 @@ git clone https://github.com/at-elcapitan/Microslopify
 
 2.2 Open "Signing & Capabilities" for target `Microslopify`
 
-<img width="807" height="245" alt="Screenshot 2026-04-16 at 7 42 32 PM" src="https://github.com/user-attachments/assets/724b5b42-8b36-4555-8ded-09e6660a6f2e" />
+<img width="1142" height="369" alt="Screenshot 2026-04-17 at 12 30 40 PM" src="https://github.com/user-attachments/assets/d9eafe14-e773-4640-8a42-c81604acf418" />
 
 ---
 
