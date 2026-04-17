@@ -19,13 +19,14 @@ Extension can be configurred via it's popup window
 
 ## Installation
 
-### For Intel-based macOS
+### Using prebuilt version
 
-Download prebuilt version of the extension at latest [releases](https://github.com/at-elcapitan/Microslopify/releases) or build manually
+Available prebuilt versions:
+- arm64 (Apple silicon)
+- x64_64 (Intel)
+- Universal
 
-### Apple silicon
-
-Currently prebuilt versions are unavailable for Apple silion
+Can be found at [releases page](https://github.com/at-elcapitan/Microslopify/releases)
 
 ### Building
 
