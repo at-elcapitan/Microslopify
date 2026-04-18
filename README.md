@@ -79,6 +79,6 @@ git clone https://github.com/at-elcapitan/Microslopify
 
 Sites that working bad with extension enabled. Highly recomended to disable it for them.
 
-| Site    |
-| ------- |
-| [Teams](https://teams.cloud.microsoft) |
+| Site    | Link |
+| ------- | ---- |
+| Microslop Teams | https://teams.cloud.microsoft |
