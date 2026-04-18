@@ -2,6 +2,12 @@
 
 is a Safari extension inspired by [Microslop](https://github.com/4O4-wasd/Microslop), that converts Microslop-related words to their correct variants.
 
+## Navigation
+
+- [Installation - Prebuilt](#using-prebuilt-version)
+- [Installation - Building](#building)
+- [Known Issues](#known-issues)
+
 ## Working demo
 
 <img width="671" height="136" alt="Screenshot 2026-04-16 at 7 39 42 PM" src="https://github.com/user-attachments/assets/273d00cf-552e-4d8f-9fef-0d1a7982dc0a" />
@@ -69,3 +75,10 @@ git clone https://github.com/at-elcapitan/Microslopify
 
 <img width="441" height="238" alt="Screenshot 2026-04-16 at 7 45 44 PM" src="https://github.com/user-attachments/assets/a77d8484-b47a-463d-bb81-ff3363205168" />
 
+## Known issues
+
+Sites that working bad with extension enabled. Highly recomended to disable it for them.
+
+| Site    |
+| ------- |
+| [Teams](https://teams.cloud.microsoft) |
