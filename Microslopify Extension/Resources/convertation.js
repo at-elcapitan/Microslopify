@@ -76,6 +76,26 @@ const defaultReplaceables = [
         false
     ),
     new ReplaceableText(
+        "Microsoft Excel",
+        "Microslop Slopcel"
+    ),
+    new ReplaceableText(
+        "Microsoft PowerPoint",
+        "Microslop SloperPoint"
+    ),
+    new ReplaceableText(
+        "Microsoft Outlook",
+        "Microslop Sloplook"
+    ),
+    new ReplaceableText(
+        "Microsoft OneNote",
+        "Microslop SlopNote"
+    ),
+    new ReplaceableText(
+        "Microsoft Word",
+        "Microslop Slop"
+    ),
+    new ReplaceableText(
         "Microsoft",
         "Microslop",
         true
