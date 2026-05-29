@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "An extension that turns the Microsoft company name and its product names into a humorous form",
+        "message": "This is Microslopify Extension. You should tell us what your extension does here.",
         "description": "Description of what the extension does."
     }
 }
