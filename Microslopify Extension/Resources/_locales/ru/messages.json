@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Microslopify Extension",
+        "description": "Имя расширения"
+    },
+    "extension_description": {
+        "message": "Расширение, преобразующее название компании Microsoft и названия её продуктов в шутливую форму",
+        "description": "Описание работы расширения"
+    }
+}
