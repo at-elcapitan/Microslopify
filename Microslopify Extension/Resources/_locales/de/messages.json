@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Microslopify Extension",
+        "description": "Der Anzeigename für die Erweiterung."
+    },
+    "extension_description": {
+        "message": "Eine Erweiterung, die den Firmennamen Microsoft und die Namen seiner Produkte in eine humorvolle Form umwandelt",
+        "description": "Beschreibung der Funktion der Erweiterung."
+    }
+}
